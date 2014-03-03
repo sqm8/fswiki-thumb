@@ -1,0 +1,47 @@
+!!!サムネイルプラグイン
+
+INSTALL
+
+ Hiroaki Sakuma <sakuma@bitcoffee.com>
+ Copyright 2005-2007 BitCoffee, Inc. All Rights Reserved.
+
+
+
+!!インストール
+
+展開すると，fswikiのディレクトリ構造となるので，必要なファイルをコピーしてください．
+
+ plugin/thumb/
+ plugin/thumb/ThumHandler.pm
+ plugin/thumb/ThumImage.pm
+ plugin/thumb/Initialize.pm 
+ plugin/thumb/Install.pm
+
+
+管理画面のスタイル設定のユーザ定義スタイルに，以下を加えてください．
+
+/* thumbプラグイン */
+.thumbinner {
+  background-color: #f8f8f8;
+  border-width: 1px;
+  border-color: #cccccc;
+  border-style: solid;
+}
+
+.thumbcaption {
+  font-size: 80%;
+}
+
+
+Perl module の，GD がインストールされていれば，画像サイズはサーバサイドで調整されます．
+
+""# cpan install GD
+
+また，Image::ExifTool がインストールされていれば，画像情報が得られます．
+
+""# cpan install Image::ExifTool
+
+
+
+fswikiにログインして，プラグインのインストールを行ってください．
+
