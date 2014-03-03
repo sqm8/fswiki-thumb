@@ -24,9 +24,9 @@ package plugin::thumb::ThumbImage;
 # {{thum_image ファイル名,ページ名,説明文,250px,right}}
 # </pre>
 
-# $Id: ThumbImage.pm,v 1.2 2007/05/17 06:51:38 sakuma Exp $
 #
-# Copyright 2005-2007 BitCoffee, Inc. All rights reserved.
+# Copyright 2005-2009 BitCoffee, Inc. All rights reserved.
+# Copyright (C) medicalsystems, Inc.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions
@@ -61,7 +61,7 @@ use lib "./lib";
 
 # /**
 #  * Constructor
-#  * @author Hiroaki Sakuma <sakuma@bitcoffee.com>
+#  * @author Hiro Sakuma <sakuma@zero52.com>
 #  * @return $self
 #  */
 
@@ -77,7 +77,7 @@ sub new {
 
 # /*
 #  * inline
-#  * @author Hiroaki Sakuma <sakuma@bitcoffee.com>
+#  * @author Hiro Sakuma <sakuma@zero52.com>
 #  * @param $wiki
 #  * @param $opt
 #  * @return $str

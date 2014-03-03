@@ -1,4 +1,6 @@
-$Id: ChangeLog.txt,v 1.1.1.1 2007/05/17 05:48:31 sakuma Exp $
+2014-03-03  Hiro Sakuma  <sakuma@zero52.com>
+
+	* リポジトリを git へ移行
 
 2007-05-16  Hiroaki Sakuma  <sakuma@bitcoffee.com>
 

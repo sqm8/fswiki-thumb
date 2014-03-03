@@ -1,4 +1,5 @@
-Copyright 2005-2007 BitCoffee, Inc. All rights reserved.
+Copyright 2005-2009 BitCoffee, Inc. All rights reserved.
+Copyright (C) medicalsystems, Inc.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions

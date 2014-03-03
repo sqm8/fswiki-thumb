@@ -1,9 +1,9 @@
 package plugin::thumb::FileHandler;
-# 
-
-# $Id: FileHandler.pm,v 1.3 2007/05/17 07:12:23 sakuma Exp $
 #
-# Copyright 2005-2007 BitCoffee, Inc. All rights reserved.
+
+#
+# Copyright 2005-2009 BitCoffee, Inc. All rights reserved.
+# Copyright (C) medicalsystems, Inc.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions
@@ -37,7 +37,7 @@ use lib "./lib";
 
 # /**
 #  * Constructor
-#  * @author Hiroaki Sakuma <sakuma@bitcoffee.com>
+#  * @author Hiro Sakuma <sakuma@zero52.com>
 #  * @return $self
 #  */
 
@@ -61,8 +61,7 @@ sub new {
 
 # /*
 #  * do_action
-#  * @author Hiroaki Sakuma <sakuma@bitcoffee.com>
-#  * @author Hiroaki Sakuma <sakuma@bitcoffee.com>
+#  * @author Hiro Sakuma <sakuma@zero52.com>
 #  *         Original from plugin/attach/AttachHandler.pm
 #  *         by Naoki Takezoe <takezoe@aa.bb-east.ne.jp>
 #  * @param $wiki

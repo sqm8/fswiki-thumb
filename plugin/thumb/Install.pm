@@ -1,9 +1,9 @@
 package plugin::thumb::Install;
 # 画像のサムネイルを表示するプラグインを提供します。
 
-# $Id: Install.pm,v 1.1.1.1 2007/05/17 05:48:31 sakuma Exp $
 #
-# Copyright 2005-2007 BitCoffee, Inc. All rights reserved.
+# Copyright 2005-2009 BitCoffee, Inc. All rights reserved.
+# Copyright (C) medicalsystems, Inc.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions
@@ -37,7 +37,7 @@ use strict;
 
 # /*
 #  * install
-#  * @author Hiroaki Sakuma <sakuma@bitcoffee.com>
+#  * @author Hiro Sakuma <sakuma@zero52.com>
 #  * @param $wiki
 #  * @param $cgi
 #  * @return $str
